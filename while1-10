@@ -6,4 +6,4 @@ public class Conditions{
         System.out.println(i);
        }
     }
-}
+} 
