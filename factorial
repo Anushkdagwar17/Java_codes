@@ -1,3 +1,6 @@
+
+// factorial code
+
 import java.util.*;
 
 public class Main {
