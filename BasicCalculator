@@ -1,0 +1,47 @@
+import java.util.*;
+
+
+public class Main{
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the Numbers: ");
+		
+		Double num1 = sc.nextDouble();
+		Double num2 = sc.nextDouble();
+		
+		System.out.println("Enter a operator (+,-,*,/)");
+		char operator = sc.next().charAt(0);
+
+        double result;
+        switch (operator) {
+            case '+':
+                result = num1 + num2;
+                break;
+
+            case '-':
+                result = num1 - num2;
+                break;
+
+            case '*':
+                result = num1 * num2;
+                break;
+                
+            case '/':
+                if(num2==0){
+                    System.out.println("Not divisible");
+                    return;
+                }
+                else{
+                    result = num1 / num2;
+                    break;
+                }
+                
+            default:
+                System.out.println("Invalid operator.");
+                return;
+        }
+        System.out.println("The final result:");
+        System.out.println(num1 + " " + operator + " " + num2 + " = " + result);
+    }
+}
