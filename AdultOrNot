@@ -1,4 +1,7 @@
+// if-else program for adult or not 
+
 import java.util.*;
+
 
 public class Conditions{
     public static void main(String[] args){
