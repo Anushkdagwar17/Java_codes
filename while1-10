@@ -1,6 +1,6 @@
-import java.util.*;
+// while loop program
 
-//while loop program 
+import java.util.*; 
 
 public class Conditions{
     public static void main(String[] args){
