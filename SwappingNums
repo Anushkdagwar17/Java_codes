@@ -9,7 +9,8 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
         
-        System.out.println("Before Swapping: a= " + a + "b = "+b);
+        System.out.println("Before Swapping: a=
+" + a + "b = "+b);
         int temp = a;
         a = b ;
         b = temp; 
