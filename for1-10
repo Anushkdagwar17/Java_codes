@@ -1,6 +1,6 @@
 import java.util.*;
 
-//for loop program 
+//for loop program java
 
 public class Conditions{
     public static void main(String[] args){
