@@ -16,4 +16,5 @@ public class Main {
         float SI = (P * T * R)/100;
         System.out.println("Simple interest: "+SI);
     }
+
 }
